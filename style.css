@@ -31,13 +31,10 @@ hr {
     border-radius: 15px;
     margin-bottom: 10px;
 }
-#hadith {
+#singleHadith {
     margin: 20px 0;
 }
-#hadith::after, #hadith::before {
-    content: ' " ';
-}
-#reporter {
+#reporter, #bookName {
     margin-bottom: 15px;
     text-align: right;
 }
