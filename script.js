@@ -1,5 +1,5 @@
 async function getHadith() {
-  const apiKey = API_KEY;
+  const apiKey = "$2y$10$bAg6Z7oS8BY2cGGJYvedQEXG5geqgwKMtnvawLkpx21WpJzqIm";
   try {
     const response = await fetch(
       `https://hadithapi.com/public/api/hadiths?apiKey=${apiKey}&limit=50`,
